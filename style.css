@@ -1,0 +1,44 @@
+#firstName, #lastName, #text, #image {
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color:rgb(103, 103, 103);
+    font-size: large;
+    color: white;
+}
+
+button {
+    border-radius: 50%;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+
+/* table.html styles */
+#table-image {
+    margin-top:10px;
+    background-image: url("http://placekitten.com/g/200/300");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+
+}
+
+table {
+    width: 80%;
+}
+
+table, td, tr {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#textarea-text {
+    /* border: 1px solid black; */
+    margin-top: 10px;
+}
